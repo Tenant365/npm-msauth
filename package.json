@@ -12,8 +12,12 @@
       "require": "./dist/index.js"
     }
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts"
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "prepublishOnly": "pnpm run build"
   },
   "keywords": [
     "tenant365",
