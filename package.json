@@ -1,0 +1,31 @@
+{
+  "name": "@tenant365/msauth",
+  "version": "1.0.1",
+  "description": "Microsoft Authentication Module - Powered by Tenant365",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "module": "./dist/index.mjs",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts"
+  },
+  "keywords": [
+    "tenant365",
+    "microsoft",
+    "authentication",
+    "msauth",
+    "ms365",
+    "ms365auth"
+  ],
+  "author": "Tenant365",
+  "license": "MIT",
+  "homepage": "https://tenant365.cloud",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tenant365/npm-msauth.git"
+  },
+  "packageManager": "pnpm@10.30.3",
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
